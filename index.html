@@ -12,6 +12,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Noraml CSS -->
     <link rel="stylesheet" href="[Bootstrap]radioHorizon.css" />
 
@@ -20,50 +21,155 @@
   <body>
     <h1>This is Bootsrap Horizontal Radio Button !</h1>
     <div class="container">
-      <div class="row top-buffer">
-        <div class="col-6 mt-5 top-buffer">
-          <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-          <div class="btn-group" data-toggle="buttons">
-            <label class="btn btn-primary"> <input type="radio" name="options" id="option1" /> Option 1 </label>
-            <label class="btn btn-primary"> <input type="radio" name="options" id="option2" /> Option 2 </label>
-            <label class="btn btn-primary"> <input type="radio" name="options" id="option3" /> Option 3 </label>
-          </div>
-        </div>
-      </div>
-      <hr class="my-4" />
       <form>
+        <!-- first row -->
         <div class="row top-buffer">
           <div class="col-md-6 col-lg-6 mt-6">
-            <p for="firstQ" class="form-lable">first question is nice</p>
+            <p for="firstQ" class="form-lable">Where do you want to apply your LD?</p>
 
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-outline-primary active">
-                <input type="radio" name="options" id="option1" autocomplete="off" checked /> Active
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option1" autocomplete="off" /> In the Classroom
               </label>
               <label class="btn btn-outline-primary">
-                <input type="radio" name="options" id="option2" autocomplete="off" /> Radio
-              </label>
-              <label class="btn btn-outline-primary">
-                <input type="radio" name="options" id="option3" autocomplete="off" /> Radio
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Distance Learning
               </label>
             </div>
           </div>
           <div class="col-md-6 col-lg-6 mt-6">
-            <p for="firstQ" class="form-lable">second question is nice</p>
+            <p for="firstQ" class="form-lable">What is the educational level of your students?</p>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
               <label class="btn btn-outline-info">
-                <input type="radio" name="options" id="option1" autocomplete="off" checked /> Active
+                <input type="radio" name="options" id="option1" autocomplete="off" checked /> Early Childhood Education
               </label>
               <label class="btn btn-outline-info">
-                <input type="radio" name="options" id="option2" autocomplete="off" /> Radio </label
-              ><br />
+                <input type="radio" name="options" id="option2" autocomplete="off" />Primary Education</label
+              >
               <label class="btn btn-outline-info">
-                <input type="radio" name="options" id="option3" autocomplete="off" /> Radio
+                <input type="radio" name="options" id="option3" autocomplete="off" />Lower Secondary Education</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Upper Secondary Education</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Post Secndary non-tertiary
+                Education</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Short-Cycle Tertiary
+                Education</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Bachelor or Equivalent</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Master or Equivalent</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Doctoral or Equivalent</label
+              >
+            </div>
+          </div>
+        </div>
+        <hr />
+        <!-- second row -->
+        <div class="row top-buffer">
+          <div class="col-md-6 col-lg-6 mt-6">
+            <p for="firstQ" class="form-lable">How many students do you want to involve in the activity?</p>
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option1" autocomplete="off" /> Less than 10
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Between 10-20
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Between 30-40
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Maore than 40
+              </label>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 mt-6">
+            <p for="firstQ" class="form-lable">What is the goal of your learning activity based on bloom's taxonomy?</p>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked /> Remember
+              </label>
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option2" autocomplete="off" />Understand</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Apply</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Analysis</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Evaluate</label
+              >
+              <label class="btn btn-outline-info">
+                <input type="radio" name="options" id="option3" autocomplete="off" />Create</label
+              >
+            </div>
+          </div>
+        </div>
+        <hr />
+        <!-- third row -->
+        <div class="row top-buffer">
+          <div class="col-md-6 col-lg-6 mt-6">
+            <p for="firstQ" class="form-lable">What is the subject of your learning design?</p>
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option1" autocomplete="off" /> General Programmes
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Humanities and Arts
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Science
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Social Science, Business & Law
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Health & Wellfare
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Engineering, Manufacturing &
+                Cnstruction
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Agriculture
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Services
+              </label>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 mt-6">
+            <p for="firstQ" class="form-lable">How much time do you want to dedicate to the activity?</p>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option1" autocomplete="off" /> Less than 10
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Between 10-20
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Between 30-40
+              </label>
+              <label class="btn btn-outline-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off" /> Maore than 40
               </label>
             </div>
           </div>
         </div>
-
+        <hr />
+        <hr />
         <div class="row">
           <div class="col-lg-6 col-md-6">
             <div class="btn-group" data-toggle="buttons">
