@@ -1,0 +1,39 @@
+/* .row {
+  padding: 40px;
+}
+
+.row-height {
+  height: 20px;
+  text-align: cenleftter;
+  padding-top: 11px;
+}
+p {
+  font-size: large;
+}
+
+/* .col-md-4,
+.col-md-2 {
+  background-color: #e3e3e3;
+}
+
+.col-md-6 {
+  background-color: #f5f3f3;
+}
+
+.col-md-4 {
+  border-radius: 15px 0 0 15px;
+}
+
+.col-md-2 {
+  border-radius: 0 15px 15px 0;
+} */
+p {
+  font-size: large;
+}
+.typewrite {
+  text-align: center;
+  color: white;
+}
+.especial-color {
+  background-color: indigo;
+}

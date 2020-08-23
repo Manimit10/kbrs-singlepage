@@ -12,19 +12,82 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /> -->
     <!-- Noraml CSS -->
     <link rel="stylesheet" href="[Bootstrap]radioHorizon.css" />
-
-    <title>Horizontal Radiobutton</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title></title>
   </head>
   <body>
-    <h1>This is Bootsrap Horizontal Radio Button !</h1>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="Logo-ILDE2.svg" height="30" class="d-inline-block align-top" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent-555"
+        aria-controls="navbarSupportedContent-555"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Explore LDs</a>
+          </li>
+        </ul>
+        <!-- <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item avatar">
+            <a class="nav-link p-0" href="#">
+              <img src="Mani-Avatar.png" class="rounded-circle z-depth-0" alt="avatar image" height="35" />
+            </a>
+          </li>
+        </ul> -->
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- <h1>This is Bootsrap Horizontal Radio Button !</h1> -->
     <div class="container">
-      <form>
+      <div class="feature-wrapper especial-color pt-5 pb-5 mt-5 mt-lg-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-10 mx-auto">
+              <div class="text-center">
+                <h1>
+                  <a
+                    href=""
+                    class="typewrite"
+                    data-period="2000"
+                    data-type='[ "Hi, I help you to find proper Learning Design.", "Just select the option and click on submit.", "Always you can back to change your query." ]'
+                  >
+                    <span class="wrap"></span>
+                  </a>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form style="margin-top: 90px;">
         <!-- first row -->
         <div class="row top-buffer">
-          <div class="col-md-6 col-lg-6 mt-6">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
             <p for="firstQ" class="form-lable">Where do you want to apply your LD?</p>
 
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -36,7 +99,7 @@
               </label>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 mt-6">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
             <p for="firstQ" class="form-lable">What is the educational level of your students?</p>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
               <label class="btn btn-outline-info">
@@ -71,10 +134,49 @@
             </div>
           </div>
         </div>
-        <hr />
+        <div class="row">
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-primary">1</button>
+              <button type="button" class="btn btn-primary">2</button>
+              <button type="button" class="btn btn-primary">3</button>
+              <button type="button" class="btn btn-primary">4</button>
+            </div>
+            <div class="btn-group mr-2" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-primary">5</button>
+              <button type="button" class="btn btn-primary">6</button>
+              <button type="button" class="btn btn-primary">7</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-primary">8</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-secondary">1</button>
+              <button type="button" class="btn btn-secondary">2</button>
+              <button type="button" class="btn btn-secondary">3</button>
+              <button type="button" class="btn btn-secondary">4</button>
+            </div>
+            <br />
+          </div>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"></div>
+            <div class="btn-group mr-2" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-secondary">5</button>
+              <button type="button" class="btn btn-secondary">6</button>
+              <button type="button" class="btn btn-secondary">7</button>
+            </div>
+          </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-secondary">8</button>
+            </div>
+          </div>
+        </div>
         <!-- second row -->
         <div class="row top-buffer">
-          <div class="col-md-6 col-lg-6 mt-6">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
             <p for="firstQ" class="form-lable">How many students do you want to involve in the activity?</p>
 
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -92,7 +194,7 @@
               </label>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 mt-6">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
             <p for="firstQ" class="form-lable">What is the goal of your learning activity based on bloom's taxonomy?</p>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
               <label class="btn btn-outline-info">
@@ -116,10 +218,10 @@
             </div>
           </div>
         </div>
-        <hr />
+
         <!-- third row -->
         <div class="row top-buffer">
-          <div class="col-md-6 col-lg-6 mt-6">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
             <p for="firstQ" class="form-lable">What is the subject of your learning design?</p>
 
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -150,7 +252,7 @@
               </label>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 mt-6">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
             <p for="firstQ" class="form-lable">How much time do you want to dedicate to the activity?</p>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
               <label class="btn btn-outline-primary">
@@ -168,105 +270,14 @@
             </div>
           </div>
         </div>
-        <hr />
-        <hr />
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div class="btn-group" data-toggle="buttons">
-              <label class="btn btn-primary active">
-                <input type="checkbox" autocomplete="off" /> Checkbox 1 (pre-checked)
-              </label>
-              <label class="btn btn-info"> <input type="checkbox" autocomplete="off" /> Checkbox 2 </label>
-              <label class="btn btn-info"> <input type="checkbox" autocomplete="off" /> Checkbox 3 </label>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-              <div class="btn-group mr-2" role="group" aria-label="First group">
-                <button type="button" class="btn btn-info">1</button>
-                <button type="button" class="btn btn-info">2</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="btn-group">
-              <button class="btn btn-success" type="button">Button</button>
-              <button class="btn btn-info" type="button">Button</button>
-              <button class="btn btn-warning" type="button">Button</button>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div class="btn-group-vertical">
-              <button class="btn btn-success" type="button">Button</button>
-              <button class="btn btn-info" type="button">Button</button>
-              <button class="btn btn-warning" type="button">Button</button>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="btn-group">
-              <button type="button" class="btn btn-danger">Bikes</button>
-              <button type="button" class="btn btn-danger">Scooters</button>
-              <div class="btn-group">
-                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
-                  Cars
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Manual</a>
-                  <a class="dropdown-item" href="#">Automatic</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="row">
-          <div class="col-md-6 col-lg-6">
-            <div class="btn-group">
-              <button type="button" class="btn btn-danger">Cars</button>
-              <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
-                <span class="caret"></span>
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Manual</a>
-                <a class="dropdown-item" href="#">Automatic</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <div class="btn-group-vertical">
-              <button type="button" class="btn btn-danger">Bikes</button>
-              <button type="button" class="btn btn-danger">Scooters</button>
-              <div class="btn-group">
-                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
-                  Cars
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Manual</a>
-                  <a class="dropdown-item" href="#">Automatic</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="row">
-          <div class="col-md-6 col-lg-6">
-            <div class="radio">
-              <label class="btn btn-success"><input type="radio" name="optradio" checked />Option 1</label>
-            </div>
-            <div class="radio">
-              <label class="btn btn-success"><input type="radio" name="optradio" />Option 2</label>
-            </div>
-            <div class="radio">
-              <label class="btn btn-success"><input type="radio" name="optradio" />Option 3</label>
-            </div>
-          </div>
+        <div class="form-row" style="margin-bottom: 60px; margin-top: 30px;">
+          <button type="submit" formaction="result.html" class="btn btn-outline-primary float-right ml-3">
+            Submit2
+          </button>
+          <button type="submit" formaction="sidenav.html" class="btn btn-outline-primary float-right ml-3">
+            Submit1
+          </button>
+          <button type="submit" class="btn btn-outline-warning float-right ml-3">Reset Form</button>
         </div>
       </form>
     </div>
