@@ -37,3 +37,6 @@ p {
 .especial-color {
   background-color: indigo;
 }
+.btn::after {
+  color: black;
+}
