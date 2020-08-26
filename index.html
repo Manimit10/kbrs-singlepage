@@ -87,7 +87,7 @@
         </div>
       </div>
 
-      <form style="margin-top: 90px;" method="GET">
+      <form style="margin-top: 90px" id="form" method="GET">
         <!-- first row -->
         <div class="row top-buffer">
           <div class="col-md-6 col-lg-6 mt-6 row-height">
@@ -321,9 +321,9 @@
         <!-- submit buttons row -->
 
         <div class="row">
-          <div class="col-12" style="margin-top: 40px;">
+          <div class="col-12" style="margin-top: 40px">
             <div class="my-4 d-flex justify-content-end">
-              <button type="reset" class="btn btn-outline-warning ml-3">Reset Form</button>
+              <button name="reset" onclick="reset()" class="btn btn-outline-warning ml-3">Reset Form</button>
 
               <button type="submit" formaction="results.html" class="btn btn-outline-success ml-3">
                 Submit
