@@ -11,9 +11,14 @@
 const resultList = document.getElementById('result');
 
 new URLSearchParams(window.location.search).forEach((value, name) => {
-  resultList.append(`${name}: ${value}`);
-  resultList.append(document.createElement('br'));
+  resultList.innerHTML += `<b>${name}:</b> ${value}<br>`;
 });
+// const resul = document.getElementById('result2');
+// let myResult = new URLSearchParams(window.location.search);
+// myResult.forEach((value, key) => {
+//   console.log(key, value);
+//   resul.innerHTML += `<b>${key}:</b> ${value}<br>`;
+// });
 
 $(document).ready(function () {
   $('.btn-group').on('click', 'label.btn', function (e) {
