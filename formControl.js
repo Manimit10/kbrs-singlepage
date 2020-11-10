@@ -13,6 +13,7 @@ const resultList = document.getElementById('result');
 new URLSearchParams(window.location.search).forEach((value, name) => {
   resultList.innerHTML += `<b>${name}:</b> ${value}<br>`;
 });
+
 // const resul = document.getElementById('result2');
 // let myResult = new URLSearchParams(window.location.search);
 // myResult.forEach((value, key) => {
