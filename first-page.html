@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/df1dfdeddd.js" crossorigin="anonymous"></script>
+    <!-- custome css -->
+    <link rel="stylesheet" href="[Bootstrap]radioHorizon.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="tagsinput.css" rel="stylesheet" type="text/css" />
+    <!-- custome javascript -->
+    <script src="app.js" defer></script>
+    <script src="formControl.js" defer></script>
+    <title></title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="Logo-ILDE2.svg" height="30" class="d-inline-block align-top" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent-555"
+        aria-controls="navbarSupportedContent-555"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Explore LDs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item avatar">
+            <a class="nav-link p-0" href="#">
+              <i class="fas fa-user-alt icon-large mr-2"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <div class="container">
+      <div class="feature-wrapper especial-color pt-5 pb-5 mt-5 mt-lg-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-10 mx-auto top-buffer">
+              <div class="text-center">
+                <h1>
+                  <a
+                    href=""
+                    class="typewrite"
+                    data-period="2000"
+                    data-type='[ "Hi, I help you to find proper Learning Design.", "Just select the option and click on submit.", "Always you can back to change your query." ]'
+                  >
+                    <span class="wrap"></span>
+                  </a>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form style="margin-top: 90px" id="form" method="GET">
+        <!-- first row -->
+        <div class="row top-buffer">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
+            <p for="firstQ" class="form-lable">Where do you want to apply your LD?</p>
+
+            <div class="btn-group btn-group-toggle flex-wrap" data-toggle="buttons">
+              <label for="distance VS classroom" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="distance VS classroom" id="class" value="In the Classroom" /> In the Classroom
+              </label>
+              <label for="distance VS classroom" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="distance VS classroom" id="distance" value="Distance Learning" /> Distance
+                Learning
+              </label>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
+            <p for="secQ" class="form-lable">How many students do you want to involve in the activity?</p>
+
+            <div class="btn-group btn-group-toggle flex-wrap" data-toggle="buttons">
+              <label for="student amount" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="student amount" id="ten" value="Less than 10 students" autocomplete="off" />
+                Less than 10 students
+              </label>
+              <label for="student amount" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="student amount"
+                  id="twenty"
+                  autocomplete="off"
+                  value="Between 10-20 students"
+                />
+                Between 10-20 students
+              </label>
+              <label for="student amount" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="student amount"
+                  id="thirty"
+                  autocomplete="off"
+                  value="Between 30-40 students"
+                />
+                Between 30-40 students
+              </label>
+              <label for="student amount" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="student amount"
+                  id="fourty"
+                  autocomplete="off"
+                  value="More than 40 students"
+                />
+                More than 40 students
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- second row -->
+        <div class="row top-buffer">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
+            <p for="thirdQ" class="form-lable">What is the educational level of your students?</p>
+
+            <div class="btn-group btn-group-toggle flex-wrap" data-toggle="buttons">
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="child"
+                  autocomplete="off"
+                  value="Early Childhood Education"
+                />
+                Early Childhood Education
+              </label>
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="primary"
+                  autocomplete="off"
+                  value="Primary Education"
+                />
+                Primary Education
+              </label>
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="sec"
+                  autocomplete="off"
+                  value="Lower Secondary Education"
+                />
+                Lower Secondary Education
+              </label>
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="u-sec"
+                  autocomplete="off"
+                  value="Upper Secondary Education"
+                />
+                Upper Secondary Education
+              </label>
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="p-sec"
+                  autocomplete="off"
+                  value="Post Secndary non-tertiary"
+                />
+                Post Secndary non-tertiary
+              </label>
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="shortTer"
+                  autocomplete="off"
+                  value="Short-Cycle Tertiary"
+                />
+                Short-Cycle Tertiary
+              </label>
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="bach"
+                  autocomplete="off"
+                  value="Bachelor or Equivalent"
+                />
+                Bachelor or Equivalent
+              </label>
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="master"
+                  autocomplete="off"
+                  value="Master or Equivalent"
+                />
+                Master or Equivalent
+              </label>
+              <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="educational level"
+                  id="doc"
+                  autocomplete="off"
+                  value="Doctoral or Equivalent"
+                />
+                Doctoral or Equivalent
+              </label>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
+            <p for="fourthQ" class="form-lable">What is the subject of your learning design?</p>
+
+            <div class="btn-group btn-group-toggle flex-wrap" data-toggle="buttons">
+              <label for="subject" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="subject" id="gen" autocomplete="off" value="General Programmes" /> General
+                Programmes
+              </label>
+              <label for="subject" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="subject" id="art" autocomplete="off" value="Humanities and Arts" /> Humanities
+                and Arts
+              </label>
+              <label for="subject" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="subject" id="science" autocomplete="off" value="Science" /> Science
+              </label>
+              <label for="subject" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="subject" id="law" autocomplete="off" value="Social Science, Business & Law" />
+                Social Science, Business & Law
+              </label>
+              <label for="subject" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="subject" id="health" autocomplete="off" value="Health & Wellfare" /> Health &
+                Wellfare
+              </label>
+              <label for="subject" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="subject" id="agri" autocomplete="off" value="Agriculture" /> Agriculture
+              </label>
+              <label for="subject" class="btn btn-outline-info ml-1 mb-1">
+                <input type="radio" name="subject" id="service" autocomplete="off" value="Services" /> Services
+              </label>
+              <label for="subject" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="subject"
+                  id="engin"
+                  autocomplete="off"
+                  value="Engineering, Manufacturing & Construction"
+                />
+                Engineering, Manufacturing & Construction
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- third row -->
+        <div class="row top-buffer">
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
+            <p for="fifthQ" class="form-lable">How much time do you want to dedicate to the activity?</p>
+            <div class="btn-group btn-group-toggle flex-wrap" data-toggle="buttons">
+              <label for="time" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="time" id="ten-t" autocomplete="off" value="Less than 10 mins" /> Less than 10
+                mins
+              </label>
+              <label for="time" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="time" id="twenty-t" autocomplete="off" value="Between 10-20 mins" /> Between
+                10-20 mins
+              </label>
+              <label for="time" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="time" id="thirty-t" autocomplete="off" value="Between 30-40 mins" /> Between
+                30-40 mins
+              </label>
+              <label for="time" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="time" id="fourthy-t" autocomplete="off" value="More than 40 mins" /> More than
+                40 mins
+              </label>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 mt-6 row-height">
+            <p for="sixthQ" class="form-lable">What is the goal of your learning activity based on Bloom's taxonomy?</p>
+            <div class="btn-group btn-group-toggle flex-wrap" data-toggle="buttons">
+              <label for="bloom" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="bloom" id="Remember" autocomplete="off" value="Remember" /> Remember
+              </label>
+              <label for="bloom" class="btn btn-outline-info mr-1 mb-1">
+                <input
+                  type="radio"
+                  name="bloom"
+                  id="Understand"
+                  autocomplete="off"
+                  value="Understand"
+                />Understand</label
+              >
+              <label for="bloom" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="bloom" id="Apply" autocomplete="off" value="Apply" />Apply</label
+              >
+              <label for="bloom" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="bloom" id="Analysis" autocomplete="off" value="Analysis" />Analysis</label
+              >
+              <label for="bloom" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="bloom" id="Evaluate" autocomplete="off" value="Evaluate" />Evaluate</label
+              >
+              <label for="bloom" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="bloom" id="Create" autocomplete="off" value="Create" />Create</label
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tag Input row -->
+        <!-- <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-8 mt-6 pt-5 row-height">
+            <p
+              for="tag"
+              class="form-lable"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="click on x to disable tags"
+            >
+              Enter your desired activity type as a tag.
+            </p>
+           
+            <label for="tag"></label>
+            <input
+              class="col-8"
+              type="text"
+              name="tag"
+              id="tag"
+              data-role="tagsinput"
+              value="problem solving"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Tooltip on top"
+            />
+            <br />
+          </div>
+        </div> -->
+
+        <!-- submit buttons row -->
+
+        <div class="row">
+          <div class="col-12" style="margin-top: 40px">
+            <div class="my-4 d-flex justify-content-end">
+              <button name="reset" onclick="reset()" class="btn btn-outline-warning ml-3">Reset Form</button>
+
+              <button type="submit" formaction="results.html" class="btn btn-outline-success ml-3">
+                Submit
+                <i class="fas fa-thumbs-up"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-12">
+            <div class="my-4 d-flex justify-content-center">
+              <button type="submit" formaction="res2.html" class="btn btn-outline-dark ml-3">
+                Submit 2
+                <i class="fas fa-thumbs-up"></i>
+              </button>
+              <button type="submit" formaction="res3.html" class="btn btn-outline-dark ml-3">
+                Submit 3
+                <i class="fas fa-thumbs-up"></i>
+              </button>
+            </div>
+          </div>
+        </div> -->
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <script src="tagsinput.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36251023-1']);
+      _gaq.push(['_setDomainName', 'jqueryscript.net']);
+      _gaq.push(['_trackPageview']);
+
+      (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src =
+          ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
