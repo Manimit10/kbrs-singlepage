@@ -12,14 +12,14 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <!-- fontawesome cdn -->
+    <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://kit.fontawesome.com/df1dfdeddd.js" crossorigin="anonymous"></script>
-    <!-- custome css -->
+    <!-- custom css -->
     <link rel="stylesheet" href="[Bootstrap]radioHorizon.css" />
     <link rel="stylesheet" href="styles.css" />
     <link href="tagsinput.css" rel="stylesheet" type="text/css" />
-    <!-- custome javascript -->
+    <!-- custom javascript -->
     <script src="app.js" defer></script>
     <script src="formControl.js" defer></script>
     <title></title>
@@ -123,6 +123,18 @@
                 />
                 Between 10-20 students
               </label>
+              <!-- added on march 25 -->
+              <label for="student amount" class="btn btn-outline-info ml-1 mb-1">
+                <input
+                  type="radio"
+                  name="student amount"
+                  id="twenty"
+                  autocomplete="off"
+                  value="Between 20-30 students"
+                />
+                Between 20-30 students
+              </label>
+              <!-- end of 25 march -->
               <label for="student amount" class="btn btn-outline-info ml-1 mb-1">
                 <input
                   type="radio"
@@ -198,9 +210,9 @@
                   name="educational level"
                   id="p-sec"
                   autocomplete="off"
-                  value="Post Secndary non-tertiary"
+                  value="Post Secondary non-tertiary"
                 />
-                Post Secndary non-tertiary
+                Post Secondary non-tertiary
               </label>
               <label for="educational level" class="btn btn-outline-info ml-1 mb-1">
                 <input
@@ -265,8 +277,8 @@
                 Social Science, Business & Law
               </label>
               <label for="subject" class="btn btn-outline-info ml-1 mb-1">
-                <input type="radio" name="subject" id="health" autocomplete="off" value="Health & Wellfare" /> Health &
-                Wellfare
+                <input type="radio" name="subject" id="health" autocomplete="off" value="Health & Welfare" /> Health &
+                Welfare
               </label>
               <label for="subject" class="btn btn-outline-info ml-1 mb-1">
                 <input type="radio" name="subject" id="agri" autocomplete="off" value="Agriculture" /> Agriculture
@@ -300,6 +312,12 @@
                 <input type="radio" name="time" id="twenty-t" autocomplete="off" value="Between 10-20 mins" /> Between
                 10-20 mins
               </label>
+              <!-- added on 25 march -->
+              <label for="time" class="btn btn-outline-info mr-1 mb-1">
+                <input type="radio" name="time" id="twenty-t" autocomplete="off" value="Between 20-30 mins" /> Between
+                20-30 mins
+              </label>
+              <!-- end of 25 march -->
               <label for="time" class="btn btn-outline-info mr-1 mb-1">
                 <input type="radio" name="time" id="thirty-t" autocomplete="off" value="Between 30-40 mins" /> Between
                 30-40 mins
@@ -359,7 +377,7 @@
               type="text"
               name="tag"
               id="tag"
-              data-role="tagsinput"
+              data-role="tags input"
               value="problem solving"
               data-toggle="tooltip"
               data-placement="top"
